@@ -2376,6 +2376,8 @@ p.center {
 .footer-nav-links {
 	text-decoration: none;
 	padding: 0px 20px;
+	white-space: nowrap;
+	line-height: 30px;
 }
 
 .footer-copyright-text {
@@ -2688,12 +2690,13 @@ p.center {
 	}
 
 	#footer-nav-links-container{
+		padding-top: 10px;
+		padding-left: 50px;
+		padding-right: 50px;
 		margin: auto; 
 	}
 
-	.footer-nav-links{
-		padding: 0px 20px;
-	}
+
 }
 
 @media only screen and (max-width: 860px) {
@@ -2819,6 +2822,10 @@ p.center {
 	.footer-widgets .featured-content .entry-title,
 	.authority-grid.archive:not(.woocommerce-page) .entry-title {
 		font-size: 22px;
+	}
+
+	.footer-nav-links{
+		padding-bottom: 10px;
 	}
 
 }
