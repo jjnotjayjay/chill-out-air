@@ -515,7 +515,7 @@ function coa_add_footer() {
 			  </div>
 			</div>
 			<div id="footer-disclosures">
-			  <div class='footer-center-text'>
+			  <div class='footer-copyright-text'>
 				&copy;<?= date("Y"); ?> Chill Out Air, Inc.
 			  </div>
 			  <br/>
