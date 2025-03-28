@@ -2365,6 +2365,10 @@ p.center {
 	flex-wrap: wrap;
 }
 
+.footer-logo {
+	height: 75px;
+}
+
 #footer-nav-links-container {
 	padding: 20px 0px;
 }

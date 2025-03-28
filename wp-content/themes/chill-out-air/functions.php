@@ -492,7 +492,7 @@ function coa_add_footer() {
 				<div id="footer-logo-wrapper">
 					<img class="footer-logo" src="https://chilloutair.wpenginepowered.com/wp-content/uploads/2025/03/cropped-chillout-logo-2.png" alt="Chill Out Air Logo" />
 					<a href='https://www.yelp.com/biz/chill-out-air-conditioning-and-heating-santa-ana-3'>
-						<img class="footer-logo" style="height:100px" src="https://chilloutair.wpenginepowered.com/wp-content/uploads/2025/03/yelp-500xs500-300x300-1.png" alt="Yelp Logo"/>
+						<img class="footer-logo" src="https://chilloutair.wpenginepowered.com/wp-content/uploads/2025/03/yelp-500xs500-300x300-1.png" alt="Yelp Logo"/>
 					</a>	
 				</div>
 				<div id='footer-nav-links-container'>
