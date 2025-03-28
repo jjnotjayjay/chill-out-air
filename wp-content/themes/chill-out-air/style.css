@@ -917,7 +917,6 @@ th {
 .landing-page .site-inner {
 	max-width: 800px;
 }
-
 /* Column Widths and Positions
 --------------------------------------------- */
 
@@ -945,7 +944,7 @@ th {
 .full-width-content.single .content,
 .full-width-content.page .content {
 	float: none;
-	margin: 45px auto 140px;
+	margin: 45px auto 0px;
 	max-width: 680px;
 }
 
@@ -1291,6 +1290,10 @@ figcaption,
 .entry-content .wp-video {
 	margin: 0 0 24px;
 }
+
+/* Elements
+---------------------------------------------------------------------------- */
+
 
 
 /* Widgets
@@ -1794,7 +1797,7 @@ figcaption,
 }
 
 .site-footer .genesis-nav-menu a {
-	padding: 0 20px;
+	padding: 0;
 }
 /* Social Navigation
 --------------------------------------------- */
@@ -1966,7 +1969,7 @@ figcaption,
 --------------------------------------------- */
 
 .entry {
-	margin-bottom: 70px;
+	margin-bottom: 0px;
 }
 
 .entry-header {
@@ -2339,8 +2342,7 @@ p.center {
 	font-size: 12px;
 	line-height: 1.5;
 	letter-spacing: 0.08em;
-	margin-top: 70px;
-	padding: 35px 0;
+	padding-bottom: 10px;
 	text-transform: uppercase;
 }
 
@@ -2356,6 +2358,20 @@ p.center {
 .site-footer .genesis-nav-menu a {
 	font-size: 12px;
 	letter-spacing: 0.08em;
+}
+
+#footer-cta-container{
+	background-color: #597aaf;
+	padding: 20px 0px;
+	max-width: none;
+}
+
+.remove-text-transform{
+	text-transform: none;
+}
+
+.footer-hr {
+	margin-top: 0;
 }
 
 .footer-flexbox {

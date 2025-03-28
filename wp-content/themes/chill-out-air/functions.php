@@ -472,7 +472,14 @@ function coa_add_footer() {
 	  );
 	
 	  ?>
-		<div id="footer-container">
+	  <div id='footer-cta-container'>
+		<h2 class="wp-block-heading has-text-align-center entry-title has-text-color has-link-color wp-elements-908e62a4318e1f22362a441c190b6b95 remove-text-transform full-width" style="color:#ffffff; padding: 0 20px;">Ready to take your next step?</h2>
+		<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
+		<div class="wp-block-button block-content-indent">
+			<a class="wp-block-button__link has-text-align-center wp-element-button remove-text-transform" href="https://chilloutair.wpenginepowered.com/contact-us">Schedule a Service!</a></div>
+		</div>
+	   </div>
+	  <div id="footer-container">
 		  <div id="footer-wrapper">
 			<div id="footer-top">
 			  <div class="footer-top-left">
@@ -486,7 +493,7 @@ function coa_add_footer() {
 			</div>
 			<div id="footer-mid">
 			  <div class="footer-divider">
-				<hr />
+				<hr class="footer-hr"/>
 			  </div>
 			  <div class='footer-flexbox'>
 				<div id="footer-logo-wrapper">
@@ -535,3 +542,8 @@ function coa_add_footer() {
 		</div>
 	  <?
 }
+
+function enqueue_dashicons() {
+    wp_enqueue_style('dashicons');
+}
+add_action('wp_enqueue_scripts', 'enqueue_dashicons');
