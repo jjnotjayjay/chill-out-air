@@ -1,5 +1,5 @@
 <?php
-/**
+/*
  * Chill Out Air (Fork of Authority Pro)
  *
  * @package Chill Out Air
@@ -457,3 +457,81 @@ genesis_register_sidebar(
 		'description' => __( 'This is the footer section.', 'authority-pro' ),
 	]
 );
+
+// Add custom footer
+remove_action( 'genesis_footer', 'genesis_do_footer' );
+add_action( 'genesis_footer', 'coa_add_footer' );
+
+function coa_add_footer() {
+	$wp_nav_menu_args = array(
+		'menu' => '4',
+		'container' => false,
+		'container_id' => 'main-footer-menu',
+		'echo' => false,
+		'depth' => '1',
+	  );
+	
+	  ?>
+		<div id="footer-container">
+		  <div id="footer-wrapper">
+			<div id="footer-top">
+			  <div class="footer-top-left">
+				<div class="social-wrapper">
+				  <!-- <h5 class="heading-5 cream">
+					Follow<br />
+					Chill Out Air, Inc.
+				  </h5> -->
+				</div>
+			  </div>
+			</div>
+			<div id="footer-mid">
+			  <div class="footer-divider">
+				<hr />
+			  </div>
+			  <div class='footer-flexbox'>
+				<div id="footer-logo-wrapper">
+					<img class="footer-logo" src="https://chilloutair.wpenginepowered.com/wp-content/uploads/2025/03/cropped-chillout-logo-2.png" alt="Chill Out Air Logo" />
+					<a href='https://www.yelp.com/biz/chill-out-air-conditioning-and-heating-santa-ana-3'>
+						<img class="footer-logo" style="height:100px" src="https://chilloutair.wpenginepowered.com/wp-content/uploads/2025/03/yelp-500xs500-300x300-1.png" alt="Yelp Logo"/>
+					</a>	
+				</div>
+				<div id='footer-nav-links-container'>
+					<a class='footer-nav-links' href="https://chilloutair.wpenginepowered.com">
+						Home
+					</a>
+					<a class='footer-nav-links' href="https://chilloutair.wpenginepowered.com/about-us">
+						About Us
+					</a>
+					<a class='footer-nav-links' href="https://chilloutair.wpenginepowered.com/services">
+						Services
+					</a>
+					<a class='footer-nav-links' href="https://chilloutair.wpenginepowered.com/contact-us">
+						Contact Us
+					</a>
+					<a class='footer-nav-links' href="https://www2.cslb.ca.gov/OnlineServices/CheckLicenseII/LicenseDetail.aspx?LicNum=953383">
+						License Information
+					</a>
+				</div>
+			  </div>
+			</div>
+			<div id="footer-disclosures">
+			  <div class='footer-center-text'>
+				&copy;<?= date("Y"); ?> Chill Out Air, Inc.
+			  </div>
+			  <br/>
+			  <div class='footer-center-text'>
+				<a href="/terms" class="footer-legal">
+				  Terms |
+				</a>
+				<a href="/privacy-policy" class="footer-legal">
+				  Privacy Policy |
+				</a>
+				<a href="/accessibility" class="footer-legal">
+				  Accessibility
+				</a>
+			  </div>
+			</div>
+		  </div>
+		</div>
+	  <?
+}
