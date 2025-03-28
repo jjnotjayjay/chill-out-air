@@ -2414,9 +2414,8 @@ p.center {
 		max-width: 800px;
 	}
 
-	#footer-nav-links-container {
-		margin: auto;
-		padding: 20px 0px;
+	.footer-nav-links {
+		padding: 0px 10px;
 	}
 
 }
@@ -2686,6 +2685,14 @@ p.center {
 
 	.footer-copyright-text {
 		padding-top: 0px;
+	}
+
+	#footer-nav-links-container{
+		margin: auto; 
+	}
+
+	.footer-nav-links{
+		padding: 0px 20px;
 	}
 }
 
