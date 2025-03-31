@@ -3225,7 +3225,8 @@ h2.how-could-we-help {
 }
 
 @media (min-width: 1076px)  {
-	.page-id-8 .entry-content {
+	.page-id-8 .entry-content,
+	.page-id-78 .entry-content {
 		margin-bottom: 32px;
 	}
 }
