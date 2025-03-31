@@ -3226,6 +3226,9 @@ h2.how-could-we-help {
 
 @media (min-width: 1076px)  {
 	.page-id-8 .entry-content,
+	.page-id-117 .entry-content,
+	.page-id-119 .entry-content,
+	.page-id-3 .entry-content,
 	.page-id-78 .entry-content {
 		margin-bottom: 32px;
 	}
@@ -3235,4 +3238,27 @@ h2.how-could-we-help {
 	.remove-mobile-margin {
 		margin-bottom: 0 !important;
 	}
+}
+
+.site-container .wpforms-container .wpforms-form .wpforms-field input[type="radio"] {
+	border: none;
+	margin-left: 4px;
+	padding: 10px;
+}
+
+div.wpforms-container-full .wpforms-field.wpforms-field-radio.wpforms-list-inline ul {
+	gap: 20px;
+}
+
+#wpforms-submit-19 {
+	font-size: 16px;
+  line-height: 24px;
+  height: fit-content;
+  padding: 16px 24px;
+  border: none;
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  border-radius: inherit;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  text-transform: uppercase;
 }
