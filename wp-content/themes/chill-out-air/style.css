@@ -3204,3 +3204,21 @@ h2.how-could-we-help {
 		margin-top: 16px;
 	}
 }
+
+@media (min-width: 1076px) {
+	.services-container:last-child {
+		margin-bottom: 60px;
+	}
+}
+
+@media (min-width: 601px)  {
+	.services-photo {
+		margin-bottom: 0;
+	}
+}
+
+@media (max-width: 600px)  {
+	.hide-below-600 {
+		display: none;
+	}
+}
