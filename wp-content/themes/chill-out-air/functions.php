@@ -440,7 +440,7 @@ function authority_do_top_banner() {
 		$banner_text = get_theme_mod( 'authority-top-banner-text', authority_get_default_top_banner_text() );
 
 		printf(
-			'<div class="authority-top-banner" style="display: block">%s%s</div>',
+			'<div class="authority-top-banner">%s%s</div>',
 			wp_kses_post( $banner_text ),
 			$button // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped
 		);
