@@ -460,9 +460,9 @@ genesis_register_sidebar(
 
 // Add custom footer
 remove_action( 'genesis_footer', 'genesis_do_footer' );
-add_action( 'genesis_footer', 'coa_add_footer' );
+add_action( 'genesis_footer', 'chill_out_add_footer' );
 
-function coa_add_footer() {
+function chill_out_add_footer() {
 	$wp_nav_menu_args = array(
 		'menu' => '4',
 		'container' => false,
