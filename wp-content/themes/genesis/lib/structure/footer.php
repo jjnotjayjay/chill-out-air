@@ -157,7 +157,7 @@ function genesis_footer_markup_open() {
 			'context' => 'site-footer',
 		]
 	);
-	genesis_structural_wrap( 'footer', 'open' );
+	
 
 }
 
@@ -171,7 +171,7 @@ add_action( 'genesis_footer', 'genesis_footer_markup_close', 15 );
  */
 function genesis_footer_markup_close() {
 
-	genesis_structural_wrap( 'footer', 'close' );
+	
 	genesis_markup(
 		[
 			'close'   => '</footer>',
