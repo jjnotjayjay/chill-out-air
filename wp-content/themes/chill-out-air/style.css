@@ -3202,6 +3202,7 @@ h2.how-could-we-help {
 @media (max-width: 1360px) {
 	.wp-block-image.vertical-caption figure figcaption {
 		margin-top: 16px;
+		margin-bottom: 0px;
 	}
 }
 
@@ -3220,5 +3221,17 @@ h2.how-could-we-help {
 @media (max-width: 600px)  {
 	.hide-below-600 {
 		display: none;
+	}
+}
+
+@media (min-width: 1076px)  {
+	.page-id-8 .entry-content {
+		margin-bottom: 32px;
+	}
+}
+
+@media (max-width: 767px) {
+	.remove-mobile-margin {
+		margin-bottom: 0 !important;
 	}
 }
