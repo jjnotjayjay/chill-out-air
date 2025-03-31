@@ -436,7 +436,7 @@ function authority_do_top_banner() {
 
 	if ( get_theme_mod( 'authority-top-banner-visibility', true ) ) {
 
-		$button      = sprintf( '<button id="authority-top-banner-close"><span class="dashicons dashicons-no-alt"></span><span class="screen-reader-text">%s</span></button>', __( 'Close Top Banner', 'authority-pro' ) );
+		$button      = sprintf( '<button id="authority-top-banner-close" style="opacity: 1;"><span class="dashicons dashicons-no-alt"></span><span class="screen-reader-text">%s</span></button>', __( 'Close Top Banner', 'authority-pro' ) );
 		$banner_text = get_theme_mod( 'authority-top-banner-text', authority_get_default_top_banner_text() );
 
 		printf(
@@ -472,7 +472,7 @@ function coa_add_footer() {
 	  );
 	
 	  ?>
-	  <div id='footer-cta-container' class='full-width-override'>
+	  <div id='footer-cta-container'>
 		<h2 class="wp-block-heading has-text-align-center entry-title has-text-color has-link-color wp-elements-908e62a4318e1f22362a441c190b6b95 remove-text-transform full-width" style="color:#ffffff; padding: 0 20px;">Ready to take your next step?</h2>
 		<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
 		<div class="wp-block-button block-content-indent">
