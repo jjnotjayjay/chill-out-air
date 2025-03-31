@@ -2382,7 +2382,7 @@ p.center {
 }
 
 #footer-container {
-	padding: 40px 0;
+	padding: 48px 0;
 }
 
 .remove-text-transform{
@@ -3172,3 +3172,30 @@ p.center {
 		margin-right: 0;
 	}
 }
+
+.yelp-section {
+	padding-top: 60px !important;
+	padding-bottom: 48px !important;
+}
+
+.yelp-section .gb-block-container {
+	margin-bottom: 0 !important;
+}
+
+.yelp-section h2.wp-block-heading {
+	margin-top: 20px;
+}
+
+div.yelp-section .wp-block-columns {
+	margin-bottom: 20px;
+}
+
+h2.how-could-we-help {
+	margin-top: 60px;
+	margin-bottom: 24px;
+}
+
+.services-container {
+	margin-bottom: 40px;
+}
+
