@@ -3199,3 +3199,8 @@ h2.how-could-we-help {
 	margin-bottom: 40px;
 }
 
+@media (max-width: 1360px) {
+	.wp-block-image.vertical-caption figure figcaption {
+		margin-top: 16px;
+	}
+}
