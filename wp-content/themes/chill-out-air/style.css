@@ -2360,10 +2360,21 @@ p.center {
 	letter-spacing: 0.08em;
 }
 
-#footer-cta-container{
-	background-color: #597aaf;
+#footer-cta-container {
+	background-color: #174ca1;
 	padding: 48px 0px;
 	max-width: none;
+}
+
+#footer-cta-container .wp-block-button__link {
+	background-color: #EA211B;
+}
+
+#footer-cta-container .wp-block-button__link:hover,
+#footer-cta-container .wp-block-button__link:active,
+#footer-cta-container .wp-block-button__link:focus {
+	background-color: #cd1913;
+	box-shadow: 0 6px 24px rgba(0, 0, 0, 0.14);
 }
 
 .footer-cta-heading {
