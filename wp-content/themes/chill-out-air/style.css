@@ -2342,7 +2342,7 @@ p.center {
 	font-size: 12px;
 	line-height: 1.5;
 	letter-spacing: 0.08em;
-	padding-bottom: 10px;
+	padding-bottom: 0;
 	text-transform: uppercase;
 }
 
@@ -2362,8 +2362,16 @@ p.center {
 
 #footer-cta-container{
 	background-color: #597aaf;
-	padding: 20px 0px;
+	padding: 48px 0px;
 	max-width: none;
+}
+
+.footer-cta-heading {
+	margin-bottom: 24px;
+}
+
+#footer-container {
+	padding: 40px 0;
 }
 
 .remove-text-transform{
@@ -3129,7 +3137,27 @@ p.center {
 }
 
 @media (max-width: 767px)  {
+	#footer-mid {
+		max-width: 600px;
+		margin: 0 auto;
+	}
+
 	#footer-nav-links-container {
-		padding: 0;
+		padding: 10px 0 20px 0;
+    max-width: 290px;
+	}
+
+	#footer-logo-wrapper > .footer-logo {
+		margin-right: 12px;
+	}
+}
+
+@media (max-width: 374px)  {
+	#footer-logo-wrapper {
+		max-width: 300px;
+	}
+
+	#footer-logo-wrapper > .footer-logo {
+		margin-right: 0;
 	}
 }
