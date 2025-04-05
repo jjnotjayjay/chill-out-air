@@ -3160,7 +3160,7 @@ p.center {
 
 	#footer-nav-links-container {
 		padding: 10px 0 20px 0;
-max-width: 290px;
+	max-width: 290px;
 	}
 
 	#footer-logo-wrapper > .footer-logo {
@@ -3211,7 +3211,7 @@ h2.how-could-we-help {
 	}
 }
 
-@media (min-width: 1076px) {
+@media (min-width: 1076px)  {
 	.services-container:last-child {
 		margin-bottom: 60px;
 	}
@@ -3257,13 +3257,13 @@ div.wpforms-container-full .wpforms-field.wpforms-field-radio.wpforms-list-inlin
 
 #wpforms-submit-19 {
 	font-size: 16px;
-line-height: 24px;
-height: fit-content;
-padding: 16px 24px;
-border: none;
-font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
-border-radius: inherit;
-letter-spacing: 0.08em;
-font-weight: 600;
-text-transform: uppercase;
+ line-height: 24px;
+ height: fit-content;
+ padding: 16px 24px;
+ border: none;
+ font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+ border-radius: inherit;
+ letter-spacing: 0.08em;
+ font-weight: 600;
+ text-transform: uppercase;
 }
