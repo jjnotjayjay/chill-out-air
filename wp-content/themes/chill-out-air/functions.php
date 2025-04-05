@@ -476,7 +476,7 @@ function chill_out_add_footer() {
 		<h2 class="wp-block-heading has-text-align-center entry-title has-text-color has-link-color wp-elements-908e62a4318e1f22362a441c190b6b95 remove-text-transform full-width footer-cta-heading" style="color:#ffffff; padding: 0 20px;">Ready to take your next step?</h2>
 		<div class="wp-block-buttons is-content-justification-center is-layout-flex wp-container-core-buttons-is-layout-2 wp-block-buttons-is-layout-flex">
 		<div class="wp-block-button block-content-indent">
-			<a class="wp-block-button__link has-text-align-center wp-element-button remove-text-transform" href="mailto:blaine@chilloutair.com">SCHEDULE A SERVICE!</a></div>
+			<a class="wp-block-button__link has-text-align-center wp-element-button remove-text-transform" href="sms:7142255969?body=Hey%20Blaine%2C%20I%E2%80%99m%20interested%20in%20having%20Chill%20Out%20Air%20help%20me%20with%20my%20AC%2FHVAC.">SCHEDULE A SERVICE!</a></div>
 		</div>
 	   </div>
 	  <div id="footer-container" class="wrap">
