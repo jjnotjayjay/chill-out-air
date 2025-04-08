@@ -917,6 +917,10 @@ th {
 .landing-page .site-inner {
 	max-width: 800px;
 }
+
+.override-bottom-margin-10 {
+	margin-bottom: 10px;
+}
 /* Column Widths and Positions
 --------------------------------------------- */
 
